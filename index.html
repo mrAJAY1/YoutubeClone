@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Youtube</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo-left">
+            <div style="display: flex; justify-content: center ; margin-top: .55rem; padding: 0; float: left;">
+                <i id="menu" class="material-icons">menu</i>
+            </div>
+           <a href="index.html"><img  src="https://www.freecodecamp.org/news/content/images/2022/01/yt-logo.png" alt=""></a> 
+        </div>
+
+        <div class="search center">
+            <form action="">
+                <input type="text" placeholder="Search">
+
+                <button><i class="material-icons">search</i> </i></button>
+            </form>
+            <i class="material-icons mic">mic</i></i>
+        </div>
+
+        <div class="icons right">
+            <i class="material-icons side-icons">videocam</i>
+            <i class="material-icons side-icons">apps</i>
+            <i class="material-icons side-icons">notifications</i>
+            <i class="material-icons display-this side-icons">account_circle</i>
+        </div>
+    </header>
+    <main class="main">
+        <div class="side-bar">
+            <div class="nav">
+                <a class="nav-link active">
+                    <i class="material-icons">home</i>
+                    <span>Home</span>
+                </a>
+                <a class="nav-link ">
+                    <i class="material-icons">explore</i>
+                    <span>Explore</span>
+                </a>
+                <a class="nav-link ">
+                    <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false"
+                        class="style-scope yt-icon">
+                        <g height="24" viewBox="0 0 24 24" width="24" class="style-scope yt-icon">
+                            <path
+                                d="M17.77 10.32c-.77-.32-1.2-.5-1.2-.5L18 9.06c1.84-.96 2.53-3.23 1.56-5.06s-3.24-2.53-5.07-1.56L6 6.94c-1.29.68-2.07 2.04-2 3.49.07 1.42.93 2.67 2.22 3.25.03.01 1.2.5 1.2.5L6 14.93c-1.83.97-2.53 3.24-1.56 5.07.97 1.83 3.24 2.53 5.07 1.56l8.5-4.5c1.29-.68 2.06-2.04 1.99-3.49-.07-1.42-.94-2.68-2.23-3.25zM10 14.65v-5.3L15 12l-5 2.65z"
+                                class="shorts-icon"></path>
+                        </g>
+                    </svg>
+                    <span class="svg-span">Shorts</span>
+                </a>
+                <a class="nav-link ">
+                    <i class="material-icons">subscriptions</i>
+                    <span>Subscriptions</span>
+                </a>
+            </div>
+            <hr>
+            <a class="nav-link">
+                <i class="material-icons">library_add_check</i>
+                <span>Library</span>
+            </a>
+            <a class="nav-link">
+                <i class="material-icons">history</i>
+                <span>History</span>
+            </a>
+            <a class="nav-link">
+                <i class="material-icons">play_arrow</i>
+                <span>Library</span>
+            </a>
+            <a class="nav-link">
+                <i class="material-icons">thumb_up</i>
+                <span>Liked Videos</span>
+            </a>
+            <a class="nav-link">
+                <i class="material-icons">playlist_play</i>
+                <span class="span-playlist">Java + DSA + Interview questions</span>
+            </a>
+            <a class="nav-link">
+                <i class="material-icons">playlist_play</i>
+                <span class="span-playlist">100K Coding Challenge</span>
+            </a>
+            <a class="nav-link">
+                <i class="material-icons">playlist_play</i>
+                <span class="span-playlist">Web Designing Challenge</span>
+            </a>
+            <a class="nav-link">
+                <i class="material-icons">expand_less</i>
+                <span>Show less</span>
+            </a>
+            <hr>
+            <h3>SUBSCRIPTIONS</h3>
+
+            <a class="nav-link" title="Brototype Malayalam">
+                <img class="sbscr-img" src="Images/Brototype.jpg">
+                <span class="span-playlist">Brototype Malayalam</span>
+            </a>
+            <a class="nav-link" title=" Kunal Kushwaha">
+                <img class="sbscr-img" src="Images/Kunal.jpg">
+                <span class="span-playlist">Kunal Kushwaha</span>
+            </a>
+            <a class="nav-link" title="Joma Tech">
+                <img class="sbscr-img" src="Images/Joma Tech.jpg">
+                <span class="span-playlist">Joma Tech</span>
+            </a>
+            <a class="nav-link" title="Brototype Malayalam Tutorials">
+                <img class="sbscr-img" src="Images/Brototype.jpg">
+                <span class="span-playlist">Brototype Malayalam</span>
+            </a>
+            <a class="nav-link" title=" Kunal Kushwaha">
+                <img class="sbscr-img" src="Images/Kunal.jpg">
+                <span class="span-playlist">Kunal Kushwaha</span>
+            </a>
+            <a class="nav-link" title="Joma Tech">
+                <img class="sbscr-img" src="Images/Joma Tech.jpg">
+                <span class="span-playlist">Joma Tech</span>
+            </a>
+        </div>
+        <div class="content">
+            <div class="videos">
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="Images/Jocko Willink Thumbnail.webp" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="Images/jockoPodcast.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>
+                                Should You Ease Into Getting In Shape ? - Jocko Willink and Ec...
+                            </h3>
+                            <a>
+                                Jocko Podcast
+                            </a>
+                            <span>278K Views • 5 Months ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="Images/Fight Incc thumbnail.webp" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="Images/jockoPodcast.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>
+                                TRUTH (A Muhammad Ali Poem)
+                            </h3>
+                            <a>
+                                Fight Incc
+                            </a>
+                            <span>728K Views • 1 month ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="Images/Quietly Magnetic thumbnail.webp" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="Images/Quietly magnetic.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>
+                                How to Dominate Under Pressure - The Non-Reactivity of Thomas...
+                            </h3>
+                            <a>
+                               Queitly Magnetic
+                            </a>
+                            <span>278K Views • 5 Months ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="Images/Alpha Legends thumbnail.webp" alt="">
+                    </div>
+
+                    <div class="details">
+                        <div class="author">
+                            <img src="Images/insane work ethic .jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>
+                               INSANE WORK ETHIC - Kobe Bryant Motivational Video
+                            </h3>
+                            <a>
+                                Alpha Leaders
+                            </a>
+                            <span>1.9m Views • 6 Months ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="Images/TMF thumbnail.webp" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="Images/TMF profile.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>
+                                7 Mannerisms that make you look awkward
+                            </h3>
+                            <a>
+                                Jocko Podcast
+                            </a>
+                            <span>278K Views • 5 Months ago</span>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="videos">
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="Images/VIK&ORIO thumbnail.webp" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="Images/VIK&ORIO profile.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>
+                                The biggest betrayels in video games
+                            </h3>
+                            <a>
+                                Jocko Podcast
+                            </a>
+                            <span>278K Views • 5 Months ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="Images/Life of shazzam thumbnail.webp" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="Images/LIfe of shazam profile.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>
+                               Dr.Strange Trailer reaction | Malayalam
+                            </h3>
+                            <a>
+                                Jocko Podcast
+                            </a>
+                            <span>278K Views • 5 Months ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="Images/Cante88 thumbnail.webp" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="Images/cande88 profile.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>
+                                90 | Ralley Monte-Carlo 2022 flat out pure sound
+                            </h3>
+                            <a>
+                                Jocko Podcast
+                            </a>
+                            <span>278K Views • 5 Months ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="Images/Crossroads kochi thumbnail.webp" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="Images/Brototype.jpg.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>
+                                Crossroads Academy opened new office in Kochi
+                            </h3>
+                            <a>
+                                Brototype Malayalam
+                            </a>
+                            <span>278K Views • 5 Months ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="Images/XplaineD thumbnail.webp" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="Images/XplaineD profile.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>
+                                Should You Ease Into Getting In Shape ? - Jocko Willink and Echo Charles
+                            </h3>
+                            <a>
+                                Jocko Podcast
+                            </a>
+                            <span>278K Views • 5 Months ago</span>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="videos">
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="Images/Jocko Willink Thumbnail.webp" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="Images/jockoPodcast.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>
+                                Should You Ease Into Getting In Shape ? - Jocko Willink and Echo Charles
+                            </h3>
+                            <a>
+                                Jocko Podcast
+                            </a>
+                            <span>278K Views • 5 Months ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="Images/Jocko Willink Thumbnail.webp" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="Images/jockoPodcast.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>
+                                Should You Ease Into Getting In Shape ? - Jocko Willink and Echo Charles
+                            </h3>
+                            <a>
+                                Jocko Podcast
+                            </a>
+                            <span>278K Views • 5 Months ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="Images/Jocko Willink Thumbnail.webp" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="Images/jockoPodcast.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>
+                                Should You Ease Into Getting In Shape ? - Jocko Willink and Echo Charles
+                            </h3>
+                            <a>
+                                Jocko Podcast
+                            </a>
+                            <span>278K Views • 5 Months ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="Images/Jocko Willink Thumbnail.webp" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="Images/jockoPodcast.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>
+                                Should You Ease Into Getting In Shape ? - Jocko Willink and Echo Charles
+                            </h3>
+                            <a>
+                                Jocko Podcast
+                            </a>
+                            <span>278K Views • 5 Months ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="Images/Jocko Willink Thumbnail.webp" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="Images/jockoPodcast.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>
+                                Should You Ease Into Getting In Shape ? - Jocko Willink and Echo Charles
+                            </h3>
+                            <a>
+                                Jocko Podcast
+                            </a>
+                            <span>278K Views • 5 Months ago</span>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="videos">
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="Images/Jocko Willink Thumbnail.webp" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="Images/jockoPodcast.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>
+                                Should You Ease Into Getting In Shape ? - Jocko Willink and Echo Charles
+                            </h3>
+                            <a>
+                                Jocko Podcast
+                            </a>
+                            <span>278K Views • 5 Months ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="Images/Jocko Willink Thumbnail.webp" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="Images/jockoPodcast.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>
+                                Should You Ease Into Getting In Shape ? - Jocko Willink and Echo Charles
+                            </h3>
+                            <a>
+                                Jocko Podcast
+                            </a>
+                            <span>278K Views • 5 Months ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="Images/Jocko Willink Thumbnail.webp" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="Images/jockoPodcast.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>
+                                Should You Ease Into Getting In Shape ? - Jocko Willink and Echo Charles
+                            </h3>
+                            <a>
+                                Jocko Podcast
+                            </a>
+                            <span>278K Views • 5 Months ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="Images/Jocko Willink Thumbnail.webp" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="Images/jockoPodcast.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>
+                                Should You Ease Into Getting In Shape ? - Jocko Willink and Echo Charles
+                            </h3>
+                            <a>
+                                Jocko Podcast
+                            </a>
+                            <span>278K Views • 5 Months ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="Images/Jocko Willink Thumbnail.webp" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="Images/jockoPodcast.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>
+                                Should You Ease Into Getting In Shape ? - Jocko Willink and Echo Charles
+                            </h3>
+                            <a>
+                                Jocko Podcast
+                            </a>
+                            <span>278K Views • 5 Months ago</span>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="videos">
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="Images/Jocko Willink Thumbnail.webp" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="Images/jockoPodcast.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>
+                                Should You Ease Into Getting In Shape ? - Jocko Willink and Echo Charles
+                            </h3>
+                            <a>
+                                Jocko Podcast
+                            </a>
+                            <span>278K Views • 5 Months ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="Images/Jocko Willink Thumbnail.webp" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="Images/jockoPodcast.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>
+                                Should You Ease Into Getting In Shape ? - Jocko Willink and Echo Charles
+                            </h3>
+                            <a>
+                                Jocko Podcast
+                            </a>
+                            <span>278K Views • 5 Months ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="Images/Jocko Willink Thumbnail.webp" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="Images/jockoPodcast.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>
+                                Should You Ease Into Getting In Shape ? - Jocko Willink and Echo Charles
+                            </h3>
+                            <a>
+                                Jocko Podcast
+                            </a>
+                            <span>278K Views • 5 Months ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="Images/Jocko Willink Thumbnail.webp" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="Images/jockoPodcast.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>
+                                Should You Ease Into Getting In Shape ? - Jocko Willink and Echo Charles
+                            </h3>
+                            <a>
+                                Jocko Podcast
+                            </a>
+                            <span>278K Views • 5 Months ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="Images/Jocko Willink Thumbnail.webp" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="Images/jockoPodcast.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>
+                                Should You Ease Into Getting In Shape ? - Jocko Willink and Echo Charles
+                            </h3>
+                            <a>
+                                Jocko Podcast
+                            </a>
+                            <span>278K Views • 5 Months ago</span>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+            
+        </div>
+    </main>
+
+</body>
+
+</html>
